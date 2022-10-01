@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Montserrat:wght@100&family=Uchen&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: rgb(236, 192, 45);
+    font-family: Montserrat;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+}
+
+.form{
+    padding: 67px 9px 55px 13px;
+}
+
+.message{
+    padding-top: 1em;
+    color: rgb(240, 60, 60);
+    font-weight: bold;
+}
+
+.heading{
+    text-align: center;
+    font-size: 39px;
+    padding-bottom: 49px;
+}
+
+.input{
+    padding: 3em 4em 2em 0;
+    padding-left: 10px;
+}
+
+.input-type{
+    font-size: 16px;
+    color: rgb(236, 192, 45);
+    font-weight: bold;
+}
+
+.value{
+    width: 338px;
+    height: 44px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    border-bottom: 1.7px solid #666363b8;
+    border-color: rgb(236, 192, 45);
+}
+
+.forgot{
+    text-align: right;
+    padding-right: 30px;
+    font-weight: bold;
+}
+
+.login{
+    width: 304px;
+    height: 43px;
+    margin-left: 16px;
+    text-align: center;
+    border: 2px solid #0ba9cd;
+    border-radius: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.login:hover{
+    background-color: #0ba9cd;
+    color: white;
+}
+
+.other{
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+
+.logo{
+    margin: 10px;
+}
